@@ -1,4 +1,4 @@
-import django_heroku
+
 """
 Django settings for Eshop project.
 
@@ -28,7 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','belalproject1.herokuapp.com/']
 
-django_heroku.settings(locals())
 
 # Application definition
 
